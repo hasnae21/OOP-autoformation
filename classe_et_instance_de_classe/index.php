@@ -62,10 +62,10 @@ class Fruits {
   $apple->set_name("Apple");
 
 //////2_choix:
-class Fruits {
+class Fruity {
     public $name;
   }
-  $apple = new Fruits();
+  $apple = new Fruity();
   $apple->name = "Apple";
 
 ///instanceof to know if an object is an instance of a class or not /true or false
