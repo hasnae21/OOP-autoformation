@@ -12,5 +12,5 @@ class Fruit {
   }
 }
 
-$apple = new Fruit("Apple"); //no need of set_name methode
+$lkouk = new Fruit("lkouk"); //no need of set_name methode
 echo $apple->get_name();
