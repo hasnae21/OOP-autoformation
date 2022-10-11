@@ -4,6 +4,7 @@
         public $vitesse =0;
         public function afficherCouleur(){
             return $this-> couleur;
+            
         }
         public function repeindre($co){
             $this-> couleur= $co;
