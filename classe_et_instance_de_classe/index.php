@@ -52,25 +52,25 @@
 //change the value of the $name property
 
 //////1_choix:
-class Fruit {
+class Fruits {
     public $name;
     function set_name($name) {
       $this->name = $name;
     }
   }
-  $apple = new Fruit();
+  $apple = new Fruits();
   $apple->set_name("Apple");
 
 //////2_choix:
-class Fruit {
+class Fruits {
     public $name;
   }
-  $apple = new Fruit();
+  $apple = new Fruits();
   $apple->name = "Apple";
 
 ///instanceof to know if an object is an instance of a class or not /true or false
 
-    class Fruit {
+    class Fruite {
         // Properties
         public $name;
         public $color;
@@ -84,5 +84,5 @@ class Fruit {
         }
       }
       
-      $apple = new Fruit();
-      var_dump($apple instanceof Fruit);   //bool(true)
+      $apple = new Fruite();
+      var_dump($apple instanceof Fruite);   //bool(true)
