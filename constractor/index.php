@@ -17,7 +17,7 @@ echo $lkouk->get_name();
 
 
 //constractor with two parameteres
-
+                                                                                                                                                    
 class Fruits {
     public $name;
     public $color;

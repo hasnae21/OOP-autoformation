@@ -47,7 +47,7 @@
       echo "<br>";
       echo "Color: " . $apple->get_color();
       echo "<br>";
-      
+                                                                                                                                                                  
         //Name: Apple 
         //Color: Red
 
