@@ -15,7 +15,5 @@
     //$limousine=new Voiture();
     
     $berline = new Voiture(); //objet
-    echo $berline-> afficherCouleur();  //eror qd couleur est private donc on utilise function
-    
-     
+    echo $berline-> afficherCouleur();  //eror qd couleur est private donc on utilise function     
 ?>
