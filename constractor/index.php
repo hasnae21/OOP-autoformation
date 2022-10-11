@@ -13,4 +13,4 @@ class Fruit {
 }
 
 $lkouk = new Fruit("lkouk"); //no need of set_name methode
-echo $apple->get_name();
+echo $lkouk->get_name();
