@@ -32,7 +32,8 @@ class Fruits {
     }
   }
   
-  $apple = new Fruits("Apple", "red");
+  $apple = new Fruits("Apple", "red");  
+  echo "<br>";
   echo $apple->get_name();
   echo "<br>";
   echo $apple->get_color();
